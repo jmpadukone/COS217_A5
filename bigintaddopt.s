@@ -91,6 +91,11 @@ BigInt_add:
         str     x23, [sp, 40]
         str     x24, [sp, 48]
         str     x25, [sp, 56]
+
+        // Store parameters into registers
+        mov     OADDEND1, x0
+        mov     OADDEND2, x1
+        mov     OSUM, x2
         
         /*lSumLength = BigInt_larger(oAddend1->lLength,
         oAddend2->lLength) */
