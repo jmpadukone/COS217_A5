@@ -12,8 +12,6 @@ countString:
         .string "%7ld %7ld %7ld\n"
 checkStr:
         .string "iChar Val: %d\n"
-checkStr1:
-        .string "iChar ValLALA: %d\n"
 
         .section .bss
 iChar:
