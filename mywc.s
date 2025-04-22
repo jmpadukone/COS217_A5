@@ -105,8 +105,8 @@ else:
         str     x0, [x1]
 
 endIf1:
-        //CHECKPOINT 2                                                                                 
-        adr     x0, checkStr1
+        //CHECKPOINT 2      
+        adr     x0, checkStr
         adr     x1, iChar
         ldr     x1, [x1]
         bl      printf
